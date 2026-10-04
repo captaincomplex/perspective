@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perspective"
+version = "0.1.0"
+description = "Find the well-composed photographs in your Apple Photos library and build a study album."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "captaincomplex" }]
+dependencies = ["osxphotos>=0.68", "Pillow>=10"]
+classifiers = [
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Homepage = "https://github.com/captaincomplex/perspective"
+
+[project.scripts]
+perspective = "perspective.cli:main"
+
+[tool.setuptools]
+packages = ["perspective"]

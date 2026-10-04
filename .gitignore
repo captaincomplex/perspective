@@ -1,0 +1,26 @@
+# Working output: shortlists, thumbnails, contact sheets, downloaded copies.
+# These contain your photos and filenames, so they never belong in the repo.
+work/
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
+*.CR3
+*.json
+
+# Personal notes kept alongside the code
+notes/
+*-notes*.md
+*addendum*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# macOS
+.DS_Store
