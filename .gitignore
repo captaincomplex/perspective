@@ -9,6 +9,10 @@ work/
 *.CR3
 *.json
 
+# ...except the project's own logo files
+!branding/
+!branding/*.png
+
 # Personal notes kept alongside the code
 notes/
 *-notes*.md
@@ -24,3 +28,4 @@ dist/
 
 # macOS
 .DS_Store
+branding-wip/

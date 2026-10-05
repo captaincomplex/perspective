@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/perspective-logo-white.svg">
+    <img src="branding/perspective-logo.svg" alt="Perspective" width="420">
+  </picture>
+</p>
+
 # Perspective
 
 **Find the well-composed photographs in your Apple Photos library and gather them into a study album.**
@@ -120,6 +127,10 @@ whole library over AppleScript; doing that on a large library wedges Photos unti
 **`fetch` fails with "could not get authorization".** That's the PhotoKit route, which needs
 the separate *Photos* privacy permission. Perspective uses the AppleScript download route
 instead, which needs no extra permission.
+
+## Logo
+
+The P's bowl is a true golden spiral (each quarter turn ×1.618) ending in a red dot, and the dot on the *i* sits on a rule-of-thirds point. Lettering is Fraunces (SIL Open Font License), outlined, so the files need no font installed. Files are in [`branding/`](branding).
 
 ## Licence
 
