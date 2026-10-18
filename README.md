@@ -130,7 +130,7 @@ instead, which needs no extra permission.
 
 ## Logo
 
-The P's bowl is a true golden spiral (each quarter turn ×1.618) ending in a red dot, and the dot on the *i* sits on a rule-of-thirds point. Lettering is Fraunces (SIL Open Font License), outlined, so the files need no font installed. Files are in [`branding/`](branding).
+The P's bowl is a true golden spiral (each quarter turn ×1.618), its height is 1/φ of the cap height and its arm 1/φ⁴, ending in a red "eye" dot. On the *i*, the sloped top is a mountain peak with a small lens iris rising behind it. Lettering is Fraunces (SIL Open Font License), outlined, so the files need no font installed. Files are in [`branding/`](branding).
 
 ## Licence
 
